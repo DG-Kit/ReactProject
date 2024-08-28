@@ -9,7 +9,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        {/* Thêm các route khác nếu cần */}
+        {}
       </Routes>
     </Router>
   );
